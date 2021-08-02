@@ -1,0 +1,384 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/background3.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-meals{
+    background-image: url('images/backgroundd2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========== HEADER ===========*/
+
+.header{
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+}
+
+.header img{
+    width: 250px;
+    padding-top: 5px;
+    padding-right: 25px;
+}
+
+/*========== HOME PAGE ===========*/
+
+#home-logo-img{
+    width: 250px;
+    display: block;
+    margin: auto;
+  
+}
+
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*========== MEALS PAGE ===========*/
+
+#meals{
+    padding-top: 50px;
+}
+
+/*===== MEALS PAGE MENU =====*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+/*========== DRINKS PAGE ===========*/
+
+#drinks{
+    padding-top: 50px;
+}
+
+/*===== DRINKS PAGE MENU =====*/
+
+.drinks-list a{
+    text-decoration: none;
+}
+
+.drinks-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.drinks-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.drinks-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.drinks-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*========== DESSERTS PAGE ===========*/
+
+#desserts{
+    padding-top: 50px;
+}
+
+/*===== DESSERTS PAGE MENU =====*/
+
+.desserts-list a{
+    text-decoration: none;
+}
+
+.desserts-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.desserts-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.desserts-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.desserts-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}   
+
+
+/*========== STARTERS PAGE ===========*/
+
+#starters{
+    padding-top: 50px;
+}
+
+/*===== STARTERS PAGE MENU =====*/
+
+.starters-list a{
+    text-decoration: none;
+}
+
+.starters-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.starters-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.starters-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.starters-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*===== RESPONSIVE LAYOUT=====*/
+
+@media only screen and (min-width: 600px) {
+    #meals {
+        width: 80%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+}
+    
+@media only screen and (min-width: 1000px) {
+    #meals {
+        width: 60%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+      #meals {
+        width: 40%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 40%;
+        margin: auto;
+    }
+}
+    
+@media only screen and (min-width: 600px) {
+    #drinks {
+        width: 80%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+}
+    
+@media only screen and (min-width: 1000px) {
+    #drinks {
+        width: 60%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+      #drinks {
+        width: 40%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 40%;
+        margin: auto;
+    }
+}
+    
+    
+@media only screen and (min-width: 600px) {
+    #desserts {
+        width: 80%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+}
+    
+@media only screen and (min-width: 1000px) {
+    #desserts {
+        width: 60%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+      #desserts {
+        width: 40%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 40%;
+        margin: auto;
+    }
+    
+    
+ }
+    
+    
+@media only screen and (min-width: 600px) {
+    #starters {
+        width: 80%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+    
+@media only screen and (min-width: 1000px) {
+    #starters {
+        width: 60%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+      #starters {
+        width: 40%;
+        margin: auto; 
+    }
+    
+    #recipe {
+        width: 40%;
+        margin: auto;
+    }
+}
